@@ -6,7 +6,7 @@
 Connect-AzAccount -Environment 'AzureUSGovernment'
 
 # Variables (Replace these with your desired names and values)
-$resourceGroupName = "rg-scanlan-sandbox"
+$resourceGroupName = "rg-toad-sandbox"
 $location = "usgovvirginia" # Use IL6 region names as applicable.
 $automationAccountName = "aa-vmManagement"
 $startRunbookName = "MorningStartVMs"
